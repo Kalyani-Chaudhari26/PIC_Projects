@@ -1,0 +1,67 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"31 D:\kalyani\mp Lab Projects\01_project1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"54
+[v _init init `(v  1 e 1 0 ]
+"73
+[v _Lcd_data Lcd_data `(v  1 e 1 0 ]
+"82
+[v _Lcd_command Lcd_command `(v  1 e 1 0 ]
+"340 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2708
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"2717
+[v _RC3 RC3 `VEb  1 e 0 @59 ]
+"18 D:\kalyani\mp Lab Projects\01_project1.X\main.c
+[v _array array `[7]uc  1 e 7 0 ]
+"21
+[v _upper upper `[16]uc  1 e 16 0 ]
+"26
+[v _lower lower `[16]uc  1 e 16 0 ]
+"31
+[v _main main `(v  1 e 1 0 ]
+{
+"33
+[v main@i i `uc  1 a 1 6 ]
+"52
+} 0
+"54
+[v _init init `(v  1 e 1 0 ]
+{
+"71
+} 0
+"82
+[v _Lcd_command Lcd_command `(v  1 e 1 0 ]
+{
+[v Lcd_command@i i `uc  1 p 1 wreg ]
+[v Lcd_command@i i `uc  1 p 1 wreg ]
+"84
+[v Lcd_command@i i `uc  1 p 1 2 ]
+"89
+} 0
+"73
+[v _Lcd_data Lcd_data `(v  1 e 1 0 ]
+{
+[v Lcd_data@i i `uc  1 p 1 wreg ]
+[v Lcd_data@i i `uc  1 p 1 wreg ]
+"75
+[v Lcd_data@i i `uc  1 p 1 2 ]
+"80
+} 0
